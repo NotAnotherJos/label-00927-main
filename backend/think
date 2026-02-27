@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+namespace think;
+
+// 加载Composer自动加载
+require __DIR__ . '/vendor/autoload.php';
+
+// 执行应用
+(new App())->console->run();

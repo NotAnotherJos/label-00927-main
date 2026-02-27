@@ -1,0 +1,39 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Composer
+/backend/vendor/*
+!/backend/vendor/.gitkeep
+
+# Runtime
+/backend/runtime/*
+!/backend/runtime/.gitkeep
+/backend/.env
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
+
+# Node modules (if needed in future)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.bak
+*.cache

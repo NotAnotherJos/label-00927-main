@@ -1,0 +1,3 @@
+# 此目录用于存放 Composer 依赖包
+# 运行 composer install 后自动生成
+# 通过 .gitkeep 确保目录结构完整
